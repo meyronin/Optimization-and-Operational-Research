@@ -59,6 +59,9 @@ for V in range (3,i):
         print(travellingSalesmanProblem(graph, s))
         t2 = time.time()
         Y.append(t2-t1)
-        
+
+
+# JVF: not clear final plot. Axes?
+#         
 plt.plot(X,Y)
 plt.show()
